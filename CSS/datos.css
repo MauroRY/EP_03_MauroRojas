@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #0a0402;
+    color: white;
+}
+
+
+.logo img{
+    height: 80px;
+   
+}
+
+.menu ul{
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    
+}
+.menu li{
+    margin-left: 20px;
+}
+
+.menu a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+.menu a:hover{
+    color: blue;
+}
+
+.primero{
+    padding: 20px;
+    text-align: center;
+    background-color: rgb(228, 228, 231);
+    
+}
+.primero h2{
+    margin-bottom: 10px;
+    font-size: 2em;
+    font-family: "Edu AU VIC WA NT Pre";
+}
+
+.segundo_contacto {
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    gap: 20px;
+    padding: 20px;
+    align-items: center;
+    background-color: #ffffff; 
+}
+.segundo_contacto img {
+    width: 100%; 
+    height: auto;
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+.Con_form01 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.Con_form01 form label {
+    margin-top: 10px;
+    font-weight: bold;
+}
+.Con_form01 form input,
+.Con_form01 form textarea {
+    width: 100%; 
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+.Con_form01 form input[type="button"] {
+    margin-top: 15px;
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.Con_form01 form input[type="button"]:hover {
+    background-color: #0056b3;
+}
+
+
+.info-alumno {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    row-gap: 50px;
+    font-family: "Geist Mono";
+    background-color: #0a0402;
+    color: white;
+}
+
+.redes-sociales {
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+}
+.nombre-alumno {
+    padding: 5px;
+    font-size: 20px;
+    text-align: center;
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+}
+.contacto-instituto {
+    padding: 5px;
+    font-size: 20px;
+    text-align: center;
+    grid-column: 3 / 4;
+    grid-row: 1 / 2;
+}
+.carrera-actual {
+    padding: 5px;
+    font-size: 20px;
+    text-align: center;
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+}
+.nombre-docente {
+    padding: 5px;
+    font-size: 20px;
+    text-align: center;
+    grid-column: 3 / 4;
+    grid-row: 2 / 3;
+}
